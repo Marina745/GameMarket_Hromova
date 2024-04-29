@@ -1,0 +1,25 @@
+body{
+
+    background-color: rgb(229, 233, 236);
+
+}
+content{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+div{
+    border: 1px solid darkgrey;
+}
+
+.iteams{
+    padding: 10px;
+    display: flex;
+    gap: 20 px;
+}
+
+    .iteam{
+
+    }
