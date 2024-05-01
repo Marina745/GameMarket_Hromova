@@ -1,48 +1,99 @@
-body{
-    font-family: sans-serif;
+body {
+    margin:0 px;
+    padding:0px;
+    box-sizing: border-box
+    ;
+    font-family: Roboto;
     background-color: rgb(229, 233, 236);
     display: flex;
     justify-content: center;
 
 }
-content{
+
+content {
     width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-div{
+
+div {
     border: 1px solid darkgrey;
 }
-    .title{
-        background: rgb(236, 45, 41);
-        width: auto;
-        color: white;
-        padding: 10px;
-        border-radius: 5px;
 
-        text-transform: uppercase;
-        font-size: 20px;
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 3px;
+.title {
+    background: rgb(236, 45, 41);
+    width: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
 
-    }
-.iteams{
-   /* padding: 10px;*/
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  /*  gap: 20 px;*/
 }
 
-    .iteam{
-        width: 200px;
-        height: 320px;
-        margin-bottom: 10px;
-
-        border: 1 px solid rgb(194, 194, 194);
-        border-radius: 5px;
-        box-shadow: 0 0 7px rgba(0,0,0,0.3);
+.item {
+    width: 200px;
+    height: 320px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1 px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .item-title{
+        font-weight: bold;
     }
+    .item-image{
+        height: 200px;
+        background-image: url(img/1..jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .parts-pay{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .parts-pay img{
+        height:24px;
+    }
+    .prise{
+        border: 1px solid rgb(229, 233, 236);
+        border-radius: 5px;
+        padding: 5px 10px;
+        display:flex;
+    }
+.contacts p {
+    margin: 3px;
+}
+
+.contacts p:first-child {
+    font-weight: bold;
+}
+
+.contacts p:last-child {
+    border-left: 3px solid rgb(236, 45, 41);
+}
+.license{
+    font-size: 9 px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+}
