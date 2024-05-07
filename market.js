@@ -4,9 +4,14 @@ console.log('Перевірка підключеного файлу скрипт
  let itemsDiv = document.getElementById("items");
 
  //Перевірка існування знайденого блоку
- if (itemsdiv) {
+    if (itemsDiv) {
   //Вивід знайденого елементу
- console.log(itemsDiv)
+      console.log(itemsDiv)
+
+      console.log('Поле classList:', itemsDiv.classList)
+      console.log('Поле id:', itemsDiv.id)
+      console.log('Поле clientWidth:', itemsDiv.clientWidth)
+      console.log('Поле innerHTML:', itemsDiv.innerHTML)
  } else{
-    console.log('Блок товарів')
+    console.log('Блок товарів не знайдено')
  }
