@@ -155,6 +155,7 @@ body {
     color: rgb(56, 55, 52);
  }
 
- .item p {
-   margin-top: 250px; /* Задаємо відстань між номером і текстом */
+
+.user-photo{
+   width: 150px;
 }
