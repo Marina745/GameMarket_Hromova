@@ -3,73 +3,63 @@ body {
    padding:0px;
    box-sizing: border-box ;
 
-   font-family: Roboto;
+   font-family: Roboto, sans-serif;
    background-color: rgb(229, 233, 236);
    display: flex;
    justify-content: center;
 }
 
 content {
-   width: 460px;
+   width: 1200px;
    display: flex;
-   flex-direction: column;
    justify-content: center;
-   gap: 10px;
 }
 
-.title {
-   width: auto;
-   padding: 10px;
-   margin-top: 20px;
-   background: rgb(236, 45, 41);
-   border-radius: 5px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-   color: white;
-   text-transform: uppercase;
-   font-size: 20px;
-   text-align: center;
-   font-weight: bold;
-   letter-spacing: 3px;
 
-}
-
-.items {
+ .items {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
-
-}
+   justify-content: center;
+   flex-direction:column
+} 
 
 .item {
-   width: 200px;
-   height: 400px;
-   margin-bottom: 10px;
-   padding: 10px;
-   background-color: #ffffff;
-
-   border: 1 px solid rgb(194, 194, 194);
-   border-radius: 5px;
-   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-
+   margin-bottom: 30px;
 }
-   .item-title{
-       font-weight: bold;
+   
+.item-title{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.item-subtitle {
+   font-size: 16px;
+   margin-bottom: 30px;
+}
+
+   .item-images{
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      gap: 20px;
+  
    }
+   .item-image {
+      width: 200px;
+  }
+  .item-link {
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   background-color: #7fb4c2;
+   padding: 10px;
+   margin-bottom: 10px;
+}
 
-   .item-image{
-       height: 200px;
-       background-image: url(img/1..jpg);
-       background-size: 70%;
-       background-repeat: no-repeat;
-       background-position: center;
-
-   }
-
-   .parts-pay{
+  
+   /* .parts-pay{
        margin-top: 30px;
        display:flex;
        flex-direction: column;
@@ -152,13 +142,13 @@ content {
 }
  
  /* Блок інформації */
- .info {
+ /* .info {
     font-size: 9px;
     text-align: justify;
     color: rgb(120, 120, 120);
- }
+ } */
 
 
-.user-photo{
+/* .user-photo{
    width: 150px;
-}
+}  */

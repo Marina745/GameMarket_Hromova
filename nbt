@@ -1,0 +1,10 @@
+ <div class="parts-pay"> 
+       <div><img src="img/mono-lapka.png" alt="">${item.lapka}</div>
+       <div><img src="img/pb.png" alt="">${item.pb}</div>
+       </div>
+
+
+       <div class="price">
+        <div><span></span><sup>${item.prise_normal}</sup></div>
+        <div><span></span><sup>${item.prise_discoun}</sup></div>
+    </div>
