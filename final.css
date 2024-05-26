@@ -10,7 +10,7 @@ body {
 }
 
 content {
-   width: 1200px;
+   width: 12000px;
    display: flex;
    justify-content: center;
 }
@@ -47,7 +47,7 @@ content {
   
    }
    .item-image {
-      width: 200px;
+      width: 250px;
   }
   .item-link {
    display: block;
